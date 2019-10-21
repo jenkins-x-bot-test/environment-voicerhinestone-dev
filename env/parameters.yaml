@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:voicerhinestone/adminUser:password
+  username: admin
+dashboardAuthID: vault:voicerhinestone:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:voicerhinestone:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:voicerhinestone/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:voicerhinestone/prow:hmacToken
